@@ -19,9 +19,12 @@ Easylist.pl will filter and process the Easylist contents into a readable format
 # Lists.lst
 Lists.lst contains my personal used Easylists that I've fetched from the Easylist site.
 
-#Manual-easylist.sh
+# Manual-easylist.sh
 Manual-easylist.sh is the updater tool that uses Easylist.pl and lists.lst and pushes the new Easylists to Pihole.
 Edited so that it uses the local Unix temp storage.
+
+# Used blocklists
+Used blocklists contains the blocklists I use (including the default provided ones).
 
 # Crontab schedule
 #m      h       dom     mon     dow     command
